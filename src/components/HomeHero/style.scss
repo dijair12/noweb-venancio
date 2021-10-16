@@ -1,0 +1,22 @@
+.heroContainer {
+  background: url('../../assets/home-hero/home-hero.png') center / cover;
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.navHero {
+  background-color:rgba(0, 0, 0, 0);
+}
+
+@media(max-width: 1024){
+  .heroContainer{
+    background: url('../../assets/home-hero/home-hero.png') center / cover;
+  }
+}
+@media(max-width: 768){
+  .heroContainer{
+    background: url('../../assets/home-hero/home-hero.png') center / cover;
+  }
+}
