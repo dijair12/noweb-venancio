@@ -1,5 +1,6 @@
 import HomeHero from './components/HomeHero';
 import KnowMore from './components/KnowMore';
+import AboutUs from './components/AboutUs';
 
 import './global.scss';
 
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <HomeHero />
       <KnowMore />
+      <AboutUs />
     </div>
   );
 }

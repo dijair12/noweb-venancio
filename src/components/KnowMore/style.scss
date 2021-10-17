@@ -1,0 +1,55 @@
+.ctnMore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: #DCDCDC;
+
+  height: 100%;
+
+  .ctnMoreSpace {
+
+    margin-left: 6.5rem;
+    margin-bottom: 2rem;
+
+    .titleMore {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: start;
+
+      text-align: left;
+      width: 100%;
+
+      h1 {
+        color: black;
+        text-align: left;
+
+        &:first-child {
+          font-weight: 100;
+          margin-bottom: 0;
+          padding-right: 0.3rem;
+        }
+
+      }
+
+    }
+  }
+
+  .subtitle {
+    padding-top: 2rem;
+    color: black;
+  }
+
+  .titlesInfo {
+    h1 {
+      color: #BDBDBD;
+
+      &:hover {
+        color: #000000;
+        cursor: pointer;
+      }
+    }
+  }
+}

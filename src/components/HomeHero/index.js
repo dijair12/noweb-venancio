@@ -14,7 +14,7 @@ export default function HomeIndex() {
             <img src={logoHero} width="26" height="38" alt="logo" />
           </a>
 
-          <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <a href="/" role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -53,7 +53,7 @@ export default function HomeIndex() {
         </Heading>
         <Heading size="6" subtitle>
           Localizado no coração do bairro Tatuapé, o Restaurante Venancio traz o conceito
-          da gastronomia Meditrrânea com o afeto da comida caseira. Tudo é feito diretamente
+          da gastronomia Mediterrânea com o afeto da comida caseira. Tudo é feito diretamente
           aqui na casa, incluindo pães, massas e bebidas.
         </Heading>
 
