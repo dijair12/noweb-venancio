@@ -1,4 +1,5 @@
 import HomeHero from './components/HomeHero';
+import KnowMore from './components/KnowMore';
 
 import './global.scss';
 
@@ -8,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <HomeHero />
+      <KnowMore />
     </div>
   );
 }
