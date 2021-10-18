@@ -1,0 +1,82 @@
+.ctnGastronomy{
+  background: url('../../assets/gastronomy/bg-gastronomy.png') center / cover;
+  width: 100%;
+  max-width: 100%;
+
+  .ctnLogo {
+    img{
+      width: 552px;
+      height: 809px;
+    }
+  }
+
+  .ctnGastronomyTitle{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 80%;
+    margin-left: 5rem;
+
+    .titleGastronomy {
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      
+      width: 100%;
+      margin-bottom: 2rem;
+
+      h1 {
+        text-align: left;
+        
+        &:first-child {
+          font-weight: 100;
+          margin-bottom: 0;
+          padding-right: 0.3rem;
+        }
+      }
+
+    }
+
+    h1 {
+      color: white;
+    }
+      
+  }
+
+  .ctnCardList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    margin-top: 2rem;
+
+    .card {
+      margin: 0.5rem;
+      background-color: #fff0;
+      .card-header {
+        background-color: #00000061;
+  
+        position: relative;
+        z-index: 2;
+  
+        .card-header-title {
+          color: #FFFFFF;
+          font-size: 0.75rem;
+        }
+      }
+      .card-image{
+        position: relative;
+        bottom: 50px;
+
+        img{
+          width: 160px;
+          height: 230px;
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,67 @@
 .ctnAboutUs {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/abouts-us/bg-about.png') center / cover;
+  background: url('../../assets/about-us/bg-about.png') center / cover;
   width: 100%;
   max-width: 100%;
+  filter: brightness(1.2);
+
+  .ctnUs{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 80%;
+    margin-left: 5rem;
+
+    .titleUs {
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      
+      width: 100%;
+      margin-bottom: 2rem;
+
+      h1 {
+        text-align: left;
+        
+        &:first-child {
+          font-weight: 100;
+          margin-bottom: 0;
+          padding-right: 0.3rem;
+        }
+      }
+
+    }
+
+    h1 {
+      color: white;
+    }
+      
+  }
+
+  .ctnQuadroOne{
+    margin-top: 6rem;
+    position: relative;
+    display: flex;
+    justify-content: end;
+
+    img {
+      height: 645px;
+      width: 374px;
+    }
+  }
+
+  .ctnQuadroTwo{
+    margin-top: 13rem;
+    position: relative;
+    display: flex;
+    justify-content: end;
+
+    img {
+      height: 561px;
+      width: 222px;
+    }
+  }
 }
