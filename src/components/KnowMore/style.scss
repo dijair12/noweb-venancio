@@ -7,12 +7,13 @@
   background: #DCDCDC;
 
   height: 100%;
-  padding-top: 5rem;
+  padding: 5rem;
+  width: 100%;
+  margin: 0 auto;
 
   .ctnMoreSpace {
 
-    margin-left: 6.5rem;
-    margin-bottom: 2rem;
+    margin: 0px;
 
     .titleMore {
       display: flex;
@@ -39,14 +40,14 @@
   }
 
   .subtitle {
-    padding-top: 2rem;
+    padding-top: 1rem;
     color: black;
     width: 70%;
   }
 
   .titlesInfo {
-    margin-left: 6.5rem;
     width: 100%;
+    padding-top: 1rem;
 
     h1 {
       color: #BDBDBD;
