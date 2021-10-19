@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/noweb-venancio/static/css/main.f6d72be8.chunk.css",
+    "main.js": "/noweb-venancio/static/js/main.88f7afd3.chunk.js",
+    "main.js.map": "/noweb-venancio/static/js/main.88f7afd3.chunk.js.map",
+    "runtime-main.js": "/noweb-venancio/static/js/runtime-main.137801c4.js",
+    "runtime-main.js.map": "/noweb-venancio/static/js/runtime-main.137801c4.js.map",
+    "static/css/2.41953c31.chunk.css": "/noweb-venancio/static/css/2.41953c31.chunk.css",
+    "static/js/2.e609803f.chunk.js": "/noweb-venancio/static/js/2.e609803f.chunk.js",
+    "static/js/2.e609803f.chunk.js.map": "/noweb-venancio/static/js/2.e609803f.chunk.js.map",
+    "index.html": "/noweb-venancio/index.html",
+    "static/css/2.41953c31.chunk.css.map": "/noweb-venancio/static/css/2.41953c31.chunk.css.map",
+    "static/css/main.f6d72be8.chunk.css.map": "/noweb-venancio/static/css/main.f6d72be8.chunk.css.map",
+    "static/js/2.e609803f.chunk.js.LICENSE.txt": "/noweb-venancio/static/js/2.e609803f.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/noweb-venancio/static/media/home-hero.8fcaa061.png",
+    "static/media/drinks-2.png": "/noweb-venancio/static/media/drinks-2.c2b6c1a0.png",
+    "static/media/drinks.png": "/noweb-venancio/static/media/drinks.04dac2bb.png",
+    "static/media/logo-frame.a5a1fcf7.png": "/noweb-venancio/static/media/logo-frame.a5a1fcf7.png",
+    "static/media/maps.54745a1f.png": "/noweb-venancio/static/media/maps.54745a1f.png",
+    "static/media/massas.png": "/noweb-venancio/static/media/massas.63577bf5.png",
+    "static/media/petiscos.png": "/noweb-venancio/static/media/petiscos.dc8c4530.png",
+    "static/media/quadro-1.138aa8c9.png": "/noweb-venancio/static/media/quadro-1.138aa8c9.png",
+    "static/media/quadro-one.545e6b6b.png": "/noweb-venancio/static/media/quadro-one.545e6b6b.png",
+    "static/media/quadro-two.5292073c.png": "/noweb-venancio/static/media/quadro-two.5292073c.png",
+    "static/media/saladas.png": "/noweb-venancio/static/media/saladas.45db6233.png",
+    "static/media/sobremesas.png": "/noweb-venancio/static/media/sobremesas.d24c4d62.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.137801c4.js",
+    "static/css/2.41953c31.chunk.css",
+    "static/js/2.e609803f.chunk.js",
+    "static/css/main.f6d72be8.chunk.css",
+    "static/js/main.88f7afd3.chunk.js"
+  ]
+}
