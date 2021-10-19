@@ -6,24 +6,24 @@ import quadro from '../../assets/know-more/quadro-1.png';
 
 import './style.scss';
 
-export default function KnowMore(){
-  return(
+export default function KnowMore() {
+  return (
     <div id="knowMore">
-      <Columns desktop={{gap:0}}>
-        <Columns.Column desktop={{gap:0}}>
-          <Image src={quadro} fullwidth alt="quadro1"/>
+      <Columns desktop={{ gap: 0 }}>
+        <Columns.Column desktop={{ gap: 0 }}>
+          <Image src={quadro} fullwidth alt="quadro1" />
         </Columns.Column>
 
-        <Columns.Column desktop={{gap:0}}>
+        <Columns.Column desktop={{ gap: 0 }}>
 
           <div className="ctnMore">
             <div className="ctnMoreSpace">
               <div className="titleMore">
                 <Heading size="2">
-                CONHEÇA
+                  CONHEÇA
                 </Heading>
                 <Heading size="2">
-                MAIS
+                  MAIS
                 </Heading>
               </div>
 

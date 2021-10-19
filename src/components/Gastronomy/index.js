@@ -9,23 +9,21 @@ import logoFrame from '../../assets/gastronomy/logo-frame.png';
 import './style.scss';
 
 export default function Gastronomy() {
-  console.log(OptionGastronomyData)
   return (
     <div className="ctnGastronomy">
       <Columns>
-        <Columns.Column size={4} desktop={{ gap: 0 }}>
+        <Columns.Column size={6} desktop={{ gap: 0 }}>
           <div className="ctnLogo">
             <Image src={logoFrame} alt="logoFrame" />
           </div>
         </Columns.Column>
-        <Columns.Column size={2} desktop={{ gap: 0 }}></Columns.Column>
-        <Columns.Column size={5} desktop={{ gap: 0 }}>
+        <Columns.Column size={6} desktop={{ gap: 0 }}>
           <div className="ctnGastronomyTitle">
             <div className="titleGastronomy">
-              <Heading size="2">
+              <Heading size="3">
                 NOSSA
               </Heading>
-              <Heading size="2">
+              <Heading size="3">
                 GASTRONOMIA
               </Heading>
             </div>
@@ -44,11 +42,12 @@ export default function Gastronomy() {
             <div className="ctnCardList">
               {OptionGastronomyData.length > 0 ?
                 OptionGastronomyData.map((item, index) => {
+                  console.log(item.image)
                   return <Card key={index}>
                     <Card.Header>
                       <Card.Header.Title>{item.text}</Card.Header.Title>
                     </Card.Header>
-                    <Card.Image src={logoFrame} alt="logo" />
+                    <Card.Image src={item.image} alt={index} />
                   </Card>
                 })
                 :

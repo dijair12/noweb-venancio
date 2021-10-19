@@ -1,26 +1,26 @@
 export const OptionGastronomyData = [
   {
-    image: '../../assets/gastronomy/petiscos.png',
+    image: require('../../assets/gastronomy/petiscos.png').default,
     text: 'PETISCOS'
   },
   {
-    image: '../../assets/gastronomy/massas.png',
+    image: require('../../assets/gastronomy/massas.png').default,
     text: 'MASSAS'
   },
   {
-    image: '../../assets/gastronomy/saladas.png',
+    image: require('../../assets/gastronomy/saladas.png').default,
     text: 'SALADAS'
   },
   {
-    image: '../../assets/gastronomy/sobremesas.png',
+    image: require('../../assets/gastronomy/sobremesas.png').default,
     text: 'SOBREMESAS'
   },
   {
-    image: '../../assets/gastronomy/drinks.png',
+    image: require('../../assets/gastronomy/drinks.png').default,
     text: 'DRINKS CLÁSSICOS'
   },
   {
-    image: '../../assets/gastronomy/drinks-2.png',
+    image: require('../../assets/gastronomy/drinks-2.png').default,
     text: 'DRINKS AUTORAIS '
   },
 ]

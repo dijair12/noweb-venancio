@@ -1,0 +1,78 @@
+.ctnContats{
+  background: #222222;
+
+
+  h1{
+    color: white;
+  }
+
+  .ctnVenanciar, .ctnContats {
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    height: 100%;
+    width: 90%;
+    padding: 5rem;
+    margin-left: 3rem;
+    
+    .VenanciarTitle, .ContatsTitle{
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+
+      width: 100%;
+      margin: 2rem 2rem 1.3rem 0rem;
+  
+      h1 {
+        text-align: left;
+        
+        &:first-child {
+          font-weight: 100;
+          margin-bottom: 0;
+          padding-right: 0.3rem;
+        }
+      }
+    }
+  }
+
+  .ctnImage {
+    margin: 1rem 0rem 2rem 0rem;
+  }
+
+  .ctnContatList {
+    display: flex;
+    flex-direction: column;
+
+    ul {
+      .ContatsLists{
+        display: flex;
+        flex-direction: row;
+        padding: 0.4rem;
+
+        img {
+          padding-right: 0.7rem;
+        }
+      }
+    }
+  }
+
+  .ctnForms {
+    margin-top: 1.8rem;
+    
+    input, textarea{
+      margin-bottom: 1rem;
+      background-color: #222;
+      border: 2px solid #ffffff;
+      border-radius: 1px;
+      color: #fff !important;
+    }
+
+    button {
+      width: 100%;
+    }
+  }
+
+}

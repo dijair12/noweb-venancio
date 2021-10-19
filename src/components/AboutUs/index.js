@@ -11,8 +11,7 @@ export default function AboutUs() {
   return (
     <div className="ctnAboutUs">
       <Columns>
-        <Columns.Column></Columns.Column>
-        <Columns.Column desktop={{ gap: 0 }} size="5">
+        <Columns.Column desktop={{ gap: 0 }} >
           <div className="ctnUs">
             <div className="titleUs">
               <Heading size="2">
@@ -52,7 +51,6 @@ export default function AboutUs() {
 
           </div>
         </Columns.Column>
-        <Columns.Column></Columns.Column>
         <Columns.Column size="3" desktop={{ gap: 0 }}>
           <div className="ctnQuadroOne">
             <Image src={quadroOne} alt="quadroOne" />
