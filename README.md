@@ -2,6 +2,14 @@
 
 Website de Restaurante & Bar.
 
+## Tecnologias
+
+Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
+
+- [React](https://reactjs.org/)
+- [Bulma](https://react-bulma.dev/en)
+- [SCSS](https://sass-lang.com/documentation)
+
 ## Instalação e uso
 
 ```bash
