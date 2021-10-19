@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Columns, Heading, Image, Button, Card } from 'react-bulma-components';
+import { Columns, Heading, Image, Button, Container, Card } from 'react-bulma-components';
 
 import { OptionGastronomyData } from './data.js';
 
@@ -59,6 +59,11 @@ export default function Gastronomy() {
           </div>
         </Columns.Column>
       </Columns>
+      <Container style={{ display: "flex", alignItems: "center", justifyContent: "center", paddingBottom: "5rem" }}>
+        <Button outlined colorVariant="light" color="text">
+          Ver Cardápio Completo
+        </Button>
+      </Container>
     </div>
   )
 }

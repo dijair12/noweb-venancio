@@ -18,10 +18,10 @@ export default function Contats() {
         <Columns.Column>
           <div className="ctnVenanciar">
             <div className="VenanciarTitle">
-              <Heading size="3">
+              <Heading size="4">
                 VEM
               </Heading>
-              <Heading size="3">
+              <Heading size="4">
                 VENANCIAR
               </Heading>
             </div>
@@ -72,10 +72,10 @@ export default function Contats() {
         <Columns.Column>
           <div className="ctnContats">
             <div className="ContatsTitle">
-              <Heading size="3">
+              <Heading size="4">
                 ENTRE EM
               </Heading>
-              <Heading size="3">
+              <Heading size="4">
                 CONTATO
               </Heading>
             </div>

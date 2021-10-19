@@ -3,6 +3,7 @@ import KnowMore from './components/KnowMore';
 import AboutUs from './components/AboutUs';
 import Gastronomy from './components/Gastronomy';
 import Contats from './components/Contats';
+import Footer from './components/Footer';
 
 import './global.scss';
 
@@ -21,6 +22,7 @@ function App() {
       </main>
       <footer>
         <Contats />
+        <Footer />
       </footer>
     </div>
   );

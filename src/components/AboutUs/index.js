@@ -14,10 +14,10 @@ export default function AboutUs() {
         <Columns.Column desktop={{ gap: 0 }} >
           <div className="ctnUs">
             <div className="titleUs">
-              <Heading size="2">
+              <Heading size="3">
                 SOBRE
               </Heading>
-              <Heading size="2">
+              <Heading size="3">
                 NÓS
               </Heading>
             </div>

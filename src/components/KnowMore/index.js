@@ -8,9 +8,9 @@ import './style.scss';
 
 export default function KnowMore() {
   return (
-    <div id="knowMore">
-      <Columns desktop={{ gap: 0 }}>
-        <Columns.Column desktop={{ gap: 0 }}>
+    <div id="knowMore" style={{ background: "#DCDCDC" }}>
+      <Columns desktop={{ gap: 0 }} >
+        <Columns.Column desktop={{ gap: 0 }} style={{ padding: "0px" }}>
           <Image src={quadro} fullwidth alt="quadro1" />
         </Columns.Column>
 
@@ -19,10 +19,10 @@ export default function KnowMore() {
           <div className="ctnMore">
             <div className="ctnMoreSpace">
               <div className="titleMore">
-                <Heading size="2">
+                <Heading size="3">
                   CONHEÇA
                 </Heading>
-                <Heading size="2">
+                <Heading size="3">
                   MAIS
                 </Heading>
               </div>
